@@ -1,0 +1,12 @@
+version: "2"
+services:
+        explorer:
+                build: ../
+                container_name: explorer
+                network_mode: bridge
+                ports:
+                        - 8080:8000
+                environment:
+                        #        - GETH_HOST=192.168.0.133
+                        - APP_HOST=172.17.0.3
+                tty: true
