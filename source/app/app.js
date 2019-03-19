@@ -101,7 +101,7 @@ angular.module('ethExplorer', ['ngRoute', 'ui.bootstrap', 'filters', 'ngSanitize
 
         var connected = false;
         if (!web3.isConnected()) {
-            $('#connectwarning').modal({keyboard: false, backdrop: 'static'})
+            $('#connectwarning').modal({keyboard: false, backdrop: 'static'});
             $('#connectwarning').modal('show')
         }
     })
@@ -178,7 +178,7 @@ angular.module('ethExplorer', ['ngRoute', 'ui.bootstrap', 'filters', 'ngSanitize
                     this.yOffset = 10;
                     element.unbind().hover(function (a) {
                         this.t = this.title;
-                        this.title = ""
+                        this.title = "";
                         this.top = (a.pageY + yOffset);
                         this.left = (a.pageX + xOffset);
                         $("body").append('<p id="ntooltips"><img id="ntooltipsArrow" />' + this.t + "</p>");

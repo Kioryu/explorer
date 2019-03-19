@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 
 WORKDIR /root
 
-ADD . /root
+ADD source /root
 
 RUN apt-get update
 RUN apt-get install -y git
