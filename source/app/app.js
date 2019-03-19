@@ -1,11 +1,12 @@
+// var config = require('../moon.json');
+
 // begin AltSheets changes
 ///////////////////////////////
 // TODO: Put go into a config.js
 // But how to include a file from local?
 
-// var GETH_HOSTNAME = "localhost";	// put your IP address!
-// var GETH_HOSTNAME = process.env.GETH_HOST;
-var GETH_HOSTNAME = "192.168.0.133";
+// put your IP address!
+var GETH_HOSTNAME = "localhost";
 var APP_HOSTNAME = "See package.json --> scripts --> start: Change 'localhost'!!!";
 
 var GETH_RPCPORT = 8545; 		// for geth --rpcport GETH_RPCPORT
