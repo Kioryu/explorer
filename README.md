@@ -6,5 +6,5 @@ Ethererum Blockchain Explorer to show the details of the blocks and transactions
 
 # Check!!!
 docker-compose.yml
-- GETH_HOST=<IP>
-- APP_HOST=<DOCKER CONTAINER IP>
+- GETH_HOST= [ IP ]
+- APP_HOST= [ DOCKER CONTAINER IP ]
